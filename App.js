@@ -224,7 +224,7 @@ export default class App extends React.Component {
         >
           <View style={{ paddingHorizontal: 12, flexDirection: "row", justifyContent: "space-between", flex: 1 }}>
             <Text>{title}</Text>
-            <Text style={{ color: "grey" }}>{titleInfo}</Text>
+            <Text>{titleInfo}</Text>
           </View>
           <View style={{ alignItems: "center", justifyContent: "center" }}>
             <View {...(noPanResponder ? {} : this._panResponder.panHandlers)}>
